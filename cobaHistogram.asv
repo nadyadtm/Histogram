@@ -1,0 +1,7 @@
+%melakukan count sort
+x = imread('lisa.jpg');
+list_histogram = zeros(255,1);
+[tinggi, lebar]=size(x);
+
+for i=1 : 255
+    for j=1 : tinggi
